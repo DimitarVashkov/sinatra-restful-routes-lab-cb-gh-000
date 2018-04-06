@@ -1,3 +1,5 @@
+require_relative '../models/recipe'
+
 class ApplicationController < Sinatra::Base
   configure do
     set :public_folder, 'public'
