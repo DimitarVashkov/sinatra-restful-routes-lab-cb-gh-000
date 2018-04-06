@@ -1,3 +1,4 @@
+require './config/environment'
 require_relative '../models/recipe'
 
 class ApplicationController < Sinatra::Base
