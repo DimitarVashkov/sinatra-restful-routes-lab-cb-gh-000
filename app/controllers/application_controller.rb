@@ -6,11 +6,7 @@ class ApplicationController < Sinatra::Base
     set :public_folder, 'public'
     set :views, 'app/views'
   end
-  get '/' do
-    @recipes = Recipe.all
-    erb :index
-  end
-
+  
   get '/recipes' do
     @recipes = Recipe.all
     erb :index
