@@ -22,7 +22,7 @@ class ApplicationController < Sinatra::Base
     if @recipe.save
       redirect to "/recipes/#{@recipe.id}"
     else
-      
+      redirect to '/recipes/new'
     end
   end
 
