@@ -7,4 +7,3 @@ class CreateRecipes < ActiveRecord::Migration[5.1]
     end
   end
 end
-:name => recipe_name, :ingredients => recipe_ingredients, :cook_time
